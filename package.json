@@ -1,0 +1,21 @@
+{
+  "name": "paytabs_pt2",
+  "description": "PayTabs payment integration with nodejs V10.X",
+  "version": "1.0.0",
+  "_location": "/paytabs",
+  "author": {
+    "name": "Walaa Elsaeed",
+    "email": "w.elsaeed@paytabs.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strongloop/express"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "qs": "^6.7.0"
+  },
+  "main": "main.js",
+  "deprecated": false
+}
