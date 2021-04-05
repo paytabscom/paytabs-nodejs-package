@@ -108,3 +108,14 @@ EXAMPLES
 
     -Parameters Example
     paytabs.queryTransaction(['TST2108800126691','refund','ecom'],['cart_22222','EGP','100','test'],refunTrans);
+
+
+* important notes:
+  -Make sure that your website currency is as same as your currency in payTabs profile.
+  -Make sure that you send the region as the syntax below:
+  Send ARE if your region is United Arab Emirates.
+  Send SAU if your region is Saudi Arabia.
+  Send OMN if your region is Oman.
+  Send JOR if your region is Jordan
+  Send EGY if your region is Egypt
+  Send GLOBAL if your region is Global
