@@ -12,6 +12,9 @@
     "type": "git",
     "url": "https://github.com/paytabscom/paytabs-nodejs-package"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/:_authToken=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"
+  },
   "homepage": "https://site.paytabs.com/en/",
   "dependencies": {
     "axios": "^0.18.0",
