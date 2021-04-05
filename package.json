@@ -12,6 +12,7 @@
     "type": "git",
     "url": "https://github.com/paytabscom/paytabs-nodejs-package"
   },
+  "homepage": "https://site.paytabs.com/en/",
   "dependencies": {
     "axios": "^0.18.0",
     "qs": "^6.7.0"
