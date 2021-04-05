@@ -13,7 +13,7 @@
     "url": "https://github.com/paytabscom/paytabs-nodejs-package"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/:_authToken=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"
+    "registry": "https://npm.pkg.github.com/paytabscom"
   },
   "homepage": "https://site.paytabs.com/en/",
   "dependencies": {
