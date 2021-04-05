@@ -49,7 +49,7 @@ exports.createPaymentPage = (payment_code,transaction,cart,customer,shipping,url
         "return": return_url,
         "framed": framed,
         "user_defined": {
-            "package": "node.js PT2 V1",
+            "package": "node.js PT2 V2.0.0",
         }
     }
     url = _setEndPoint(config.region)+'payment/request';
