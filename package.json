@@ -1,5 +1,5 @@
 {
-  "name": "paytabs_pt2",
+  "name": "@paytabscom/paytabs-nodejs",
   "description": "PayTabs payment integration with nodejs V10.X",
   "version": "2.0.6",
   "_location": "/paytabs",
@@ -12,10 +12,10 @@
     "type": "git",
     "url": "https://github.com/paytabscom/paytabs-nodejs-package"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/paytabscom"
-  },
   "homepage": "https://site.paytabs.com/en/",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "qs": "^6.7.0"
