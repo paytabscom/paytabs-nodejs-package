@@ -10,7 +10,8 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paytabscom/paytabs-nodejs-package"
+    "url": "https://github.com/paytabscom/paytabs-nodejs-package.git",
+    "baseUrl": "https://github.com/paytabscom/paytabs-nodejs-package"
   },
   "homepage": "https://site.paytabs.com/en/",
   "publishConfig": {
