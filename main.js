@@ -71,7 +71,7 @@ exports.queryTransaction = (transaction,cart,callback)=>{
     cart = {'cart_id':cart[0],'cart_currency':cart[1],'cart_amount': parseFloat(cart[2]),'cart_description':cart[3]};
     data = {
         'profile_id':config.merchantId,
-        'tran_ref':transaction['tranRef'],
+        'tran_ref':transaction['tran_ref'],
         "tran_type": transaction['tran_type'],
         "tran_class": transaction['tran_class'],
         "cart_id": cart['cart_id'],

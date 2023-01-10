@@ -24,7 +24,7 @@ This module requires
 INSTALLATION
 ------------
 * Install Via NPM:
-    - npm i paytabs_pt2
+    - npm install @paytabscom/paytabs-nodejs@2.0.6
     
 * Github Repo Link:
     - https://github.com/paytabscom/paytabs-nodejs-package
@@ -111,8 +111,10 @@ EXAMPLES
 
 
 * important notes:
+
   -Make sure that your website currency is as same as your currency in payTabs profile.
   -Make sure that you send the region as the syntax below:
+  
   Send ARE if your region is United Arab Emirates.
   Send SAU if your region is Saudi Arabia.
   Send OMN if your region is Oman.
