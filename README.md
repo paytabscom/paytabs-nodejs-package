@@ -24,7 +24,7 @@ This module requires
 INSTALLATION
 ------------
 * Install Via NPM:
-    - npm install @paytabscom/paytabs-nodejs@2.0.6
+    - npm install @paytabscom/paytabs-nodejs@2.0.9
     
 * Github Repo Link:
     - https://github.com/paytabscom/paytabs-nodejs-package

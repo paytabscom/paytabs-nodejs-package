@@ -1,7 +1,7 @@
 {
   "name": "paytabs_pt2",
   "description": "PayTabs payment integration with nodejs V10.X",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "_location": "/paytabs",
   "author": {
     "name": "Walaa Elsaeed",
