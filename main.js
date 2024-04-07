@@ -101,7 +101,16 @@ function _sendPost(url,objData,callback){
             callback(res.data);
         }).catch((error) => {
         //This error will happen catch exceptions
-        callback({ 'response_code:': 400, 'result': error.errno });
+        if(error.response)
+        {
+            result = error.response.data.message;
+        }
+        else
+        {
+            result = error.errno;
+        }
+
+        callback({ 'response_code:': 400, 'result': result });
     });
 
 
