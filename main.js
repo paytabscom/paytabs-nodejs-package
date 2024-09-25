@@ -120,7 +120,7 @@ function _setEndPoint(region)
 {
     const regions_urls = {ARE:'https://secure.paytabs.com/',SAU:'https://secure.paytabs.sa/',
         OMN:'https://secure-oman.paytabs.com/', JOR:'https://secure-jordan.paytabs.com/',
-        EGY:'https://secure-egypt.paytabs.com/',GLOBAL:'https://secure-global.paytabs.com/'};
+        EGY:'https://secure-egypt.paytabs.com/',KWT:'https://secure-kuwait.paytabs.com/',GLOBAL:'https://secure-global.paytabs.com/'};
 
     for (const [key, value] of Object.entries(regions_urls))
     {
