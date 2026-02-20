@@ -33,12 +33,12 @@ INSTALLATION
 EXAMPLES
 ------------
 
-*Init The Package:
+* Init The Package:
 
     const paytabs = require('paytabs_pt2');
     paytabs.setConfig(<profile_id>,<server_key>,<region>);
 
-*Create Pay Page:
+* Create Pay Page:
 
     paytabs.createPaymentPage([<payment_methods>],['sale','ecom'],[<cart_id>,<cart_currency>,<cart_amount>,<cart_description>],
     [<customer_name>,<customer_email>,<customer_phone>,<customer_address>,<customer_city>,<customer_state>,<customer_country>,<customer_Zip>,<customer_ip>],
@@ -69,7 +69,7 @@ EXAMPLES
       'en',createPayPage,True
       )
 
-*Validate Payment:
+* Validate Payment:
 
     paytabs.validatePayment(<transRef>,<callback>);
 
@@ -90,7 +90,7 @@ EXAMPLES
     paytabs.validatePayment('TST2109000130191',verifyPayment);
 
 
-*Refund:
+* Refund:
 
     paytabs.queryTransaction([<transRef>,'refund','ecom'],[<cart_id>,<cart_currency>,<cart_amount>,<cart_description>],callback);
 
@@ -112,12 +112,16 @@ EXAMPLES
 
 * important notes:
 
-  -Make sure that your website currency is as same as your currency in payTabs profile.
-  -Make sure that you send the region as the syntax below:
-  
-  Send ARE if your region is United Arab Emirates.
-  Send SAU if your region is Saudi Arabia.
-  Send OMN if your region is Oman.
-  Send JOR if your region is Jordan
-  Send EGY if your region is Egypt
-  Send GLOBAL if your region is Global
+    * Make sure that your website currency is as same as your currency in payTabs profile.
+    * Make sure that you send the region as the syntax below:
+        * Send ARE if your region is United Arab Emirates.
+        * Send SAU if your region is Saudi Arabia.
+        * Send OMN if your region is Oman. 
+        * Send JOR if your region is Jordan 
+        * Send EGY if your region is Egypt 
+        * Send KWT if your region is Kuwait 
+        * Send MAR if your region is Marocco 
+        * Send IRQ if your region is Iraq 
+        * Send QAT if your region is Qatar 
+        * Send GLOBAL if your region is Global
+    
