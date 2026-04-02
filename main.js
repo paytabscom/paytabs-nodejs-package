@@ -84,7 +84,36 @@ exports.queryTransaction = (transaction,cart,callback)=>{
 }
 
 
-
+exports.createPayoutBatch=(request,  client ,callback)=>{
+ data={
+  'profile_id':config.merchantId,
+  'account_id':requeat.depositId,
+  'order_id':request.payoutref,
+  'requests':[
+	{
+		"merchant_reference":request.merchref,
+		"amount": client.request_amount,
+		"beneficiary_name": client.name,
+		"beneficiary_country": client.country_abbrv,
+		"beneficiary_account_number": client.iban,
+		"beneficiary_bank": client.bank,
+		"beneficiary_bank_branch": "",
+		"beneficiary_email": client.email,
+		"beneficiary_mobile_number": client.mobile,
+		"beneficiary_address1": client.country,
+		"beneficiary_address2": "",
+		"transfer_code": 100,
+		"source_name": request.source_name,
+		"source_address1": "",
+		"source_address2": "",
+		"source_address3": ""
+	}
+  ],
+     close_batch:true
+ }
+    url = _setEndPoint(config.region)+'payout/batch/new';
+    _sendPost(url,data,callback);
+}
 
 function _sendPost(url,objData,callback){
 
